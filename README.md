@@ -23,12 +23,3 @@ Tests are written using Jest + ts-jest.
 Run all tests
 
 npm test
-
-Expected Output
-> jest
-
- PASS  tests/merge.test.ts
-  merge function
-    ✓ should merge and sort all arrays ascending (3 ms)
-    ✓ should handle empty arrays
-    ✓ should handle all empty arrays
