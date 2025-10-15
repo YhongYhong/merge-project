@@ -1,25 +1,23 @@
-⚙️ Setup Instructions
-1️⃣ Clone this repository
+✅ README (Section: Setup & Run)
+## ⚙️ Setup & Run Instructions
 
+### 🧩 1. Clone the repository
+```bash
 git clone https://github.com/yhongyhong/merge-project.git
-
 cd merge-project
-
-2️⃣ Install dependencies
-
+📦 2. Install dependencies
+Make sure you have Node.js (v18+) installed, then run:
 npm install
-
-▶️ Run the Code
-
-You can run the merge function manually using ts-node:
-
+▶️ 3. Run the program manually
+You can execute the merge function directly using ts-node:
 npx ts-node src/merge.ts
-
-
-🧪 Run Unit Tests
-
-Tests are written using Jest + ts-jest.
-
-Run all tests
-
+🧪 4. Run unit tests
+This project uses Jest with ts-jest for testing.
+Run all tests:
 npm test
+Expected output:
+ PASS  tests/merge.test.ts
+  merge function
+    ✓ should merge and sort all arrays ascending
+    ✓ should handle empty arrays
+    ✓ should handle all empty arrays
